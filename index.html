@@ -2,16 +2,19 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style/style.css">
-    <script src="https://kit.fontawesome.com/7188e00af5.js" crossorigin="anonymous"></script>
-    <title>NETFLIX CLONE</title>
+    <link rel="stylesheet" href="assets/style/main.css">
+    <link rel = "shortcut icon" type = "imagem/x-icon" href = "assets/img/netflix_94400.ico"/>
+    <link rel="stylesheet" href="assets/style/responsive.css">
+    <link rel="stylesheet" href="assets/style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/style/owl/owl.theme.default.min.css">
+
+    <title>NETFLIX</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">NETFLIX</h2>
+            <img class="logo" src="assets/img/netflix%20logo.png">
             <nav>
                 <a href="#">Inicio</a>
                 <a href="#">Séries</a>
@@ -25,9 +28,9 @@
         <div class="filme-principal">
             <div class="container">
                 <h3 class="titulo">HOUSE OF CARDS</h3>
-                <p class="descricao">Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington.</p>
-                    <div class="botoes">
-                    <button role="button" class="botao">
+                <p class="descricao">Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington. Assista agora a nova temporada de House of Cards que está imperdível.</p>
+                <div class="botoes">
+                    <button role="button" class="botaoBranco">
                         <i class="fas fa-play"></i>
                         ASSISTIR AGORA
                     </button>
@@ -39,5 +42,45 @@
             </div>
         </div>
     </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="assets/img/mini1.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="assets/img/mini2.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="assets/img/mini3.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="assets/img/mini4.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="assets/img/mini5.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="assets/img/mini6.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="assets/img/mini7.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="assets/img/mini8.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="assets/img/mini9.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="assets/img/mini10.jpg" alt="" srcset="">
+                </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/7188e00af5.js" crossorigin="anonymous"></script>
+    <script src="assets/js/owl/jquery.min.js"></script>
+    <script src="assets/js/owl/owl.carousel.min.js"></script>
+    <script src="assets/js/owl/setup.js"></script>
 </body>
 </html>
